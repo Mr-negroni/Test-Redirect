@@ -31,7 +31,7 @@
       const mobile = document.getElementById('mobile').value;
 
       // Send the form data to the Vercel API route
-      const response = await fetch('pages/api/submit', {
+      const response = await fetch('/pages/api/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
